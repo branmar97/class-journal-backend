@@ -1,4 +1,6 @@
 class EntriesController < ApplicationController
+    before_action :set_entry, only: [:show, :destroy]
+    
     def index
         @entries = Entry.all
 
