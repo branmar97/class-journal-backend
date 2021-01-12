@@ -5,6 +5,12 @@ class CommentsController < ApplicationController
         render json: @comments
     end 
 
+    def create 
+        comment = Comment.create(comment_params)
+
+        render json: comment, status: 200
+    end 
+
     private 
 
     def comment_params 
