@@ -11,6 +11,11 @@ class EntriesController < ApplicationController
         render json: @entry 
     end
 
+    def create 
+        entry = Entry.create(entry_params)
+        render json: entry, status: 200
+    end
+
     def destroy 
         @entry.destroy
     end
