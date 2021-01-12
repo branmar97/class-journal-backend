@@ -4,11 +4,11 @@ class EntriesController < ApplicationController
     def index
         @entries = Entry.all
 
-        render json: @entries
+        render json: @entries, except: [:created_at, :updated_at]
     end
 
     def show 
-        render json: @entry 
+        render json: @entry , except: [:created_at, :updated_at]
     end
 
     def create 
