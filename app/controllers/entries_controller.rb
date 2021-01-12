@@ -20,4 +20,8 @@ class EntriesController < ApplicationController
     def set_entry
         @entry = Entry.find(params[:id])
     end 
+
+    def entry_params 
+        params.require(:entry).permit(:title, :text, :author)
+    end 
 end
