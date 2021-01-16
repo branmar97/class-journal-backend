@@ -1,24 +1,19 @@
-# README
+# class-journal-backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A single page application ("SPA") for creating class journal entries. Think of this as a digital diary that everyone can write in to share thoughts and memories. Users read, create and delete entries, as well as write entry comments.
 
-Things you may want to cover:
+NOTE: This is the backend, view the frontend repo by clicking [here](https://github.com/branmar97/class-journal-frontend).
 
-* Ruby version
+## Built With
 
-* System dependencies
+Ruby-on-Rails, HTML & CSS, JavaScript, postgresql, and console.log (Don't know what I'd do without it :sweat_smile:).
 
-* Configuration
 
-* Database creation
+## Contributing
 
-* Database initialization
+Bug reports and pull requests are welcome on Github at
+https://github.com/branmar97/class-journal-backend
 
-* How to run the test suite
+## License
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Available as open source under the terms of the MIT license.
